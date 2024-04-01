@@ -2,32 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background: #FFFFFF;
+    --foreground: #4D4F51;
+    --strong: #191A1A;
+    --highlighted: #3B3C3E;
+    --primary: #14B8A6;
+    --muted-50: #AEB1B2;
+    --muted-100: #858A8B;
+    --card: #f5f6f6;
+    --card-foreground: #4d4f51;
+    --border-50: #E6E7E7;
+    --border-100: #CFD1D2;
+    
+  }
+
+  .dark {
+    --background: #141415;
+    --foreground: #aeb1b2;
+    --strong: #ffffff;
+    --highlighted: #E6E7E7;
+    --primary: #14B8A6;
+    --muted-50: #6A6E70;
+    --muted-100: #858A8B;
+    --card: #1E1F1F;
+    --card-foreground: #E6E7E7;
+    --border-50: #3B3C3E;
+    --border-100: #434547;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+@layer base {
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  ::-moz-selection {
+    @apply bg-teal-400/10 text-teal-500;
   }
+
+  ::selection {
+    @apply bg-teal-400/10 text-teal-500
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
 }
