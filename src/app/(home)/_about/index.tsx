@@ -10,7 +10,7 @@ export function About() {
     <section id="about-me" className="mx-auto w-10/12 max-w-2xl pt-20 md:pt-24">
       <Title asChild className="mb-10 md:mb-12">
         <Animate as="h2">
-          <UserRound className="text-border-50 size-6 min-w-6" />
+          <UserRound className="size-6 min-w-6 text-border-50" />
           Quem eu sou
         </Animate>
       </Title>

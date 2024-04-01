@@ -12,7 +12,7 @@ export function Career() {
     <section id="career" className="mx-auto w-10/12 max-w-2xl pt-20 md:pt-24">
       <Title asChild className="mb-10 md:mb-12">
         <Animate as="h2">
-          <Milestone className="text-border-50 size-6 min-w-6" />
+          <Milestone className="size-6 min-w-6 text-border-50" />
           Minha trajetória
         </Animate>
       </Title>

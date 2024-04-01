@@ -12,7 +12,7 @@ export function Title({ className, asChild, ...props }: TitleProps) {
   return (
     <Comp
       className={twMerge(
-        'border-border-50 text-strong flex items-center gap-2 border-b pb-1 text-xl font-medium leading-tight',
+        'flex items-center gap-2 border-b border-border-50 pb-1 text-xl font-medium leading-tight text-strong',
         className,
       )}
       {...props}

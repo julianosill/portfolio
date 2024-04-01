@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html
       lang="pt-BR"
-      className={`${GeistSans.variable} scrollbar-thin scrollbar-track-transparent scrollbar-thumb-zinc-500 scroll-smooth antialiased`}
+      className={`${GeistSans.variable} scroll-smooth antialiased scrollbar-thin scrollbar-track-transparent scrollbar-thumb-zinc-500`}
       suppressHydrationWarning
     >
       <body className="antialiased">

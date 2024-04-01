@@ -11,7 +11,7 @@ export function Education() {
     <section className="pt-12">
       <Title asChild className="mb-8 text-lg">
         <Animate delay={0.05} as="h2">
-          <GraduationCap className="text-border-50 size-6 min-w-6" />
+          <GraduationCap className="size-6 min-w-6 text-border-50" />
           Formação e Educação
         </Animate>
       </Title>

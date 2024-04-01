@@ -7,7 +7,7 @@ export function Additional() {
   return (
     <Animate
       delay={0.1}
-      className="bg-card mt-8 flex gap-4 rounded-lg px-5 py-4 max-md:flex-col md:mt-12 md:items-center"
+      className="mt-8 flex gap-4 rounded-lg bg-card px-5 py-4 max-md:flex-col md:mt-12 md:items-center"
     >
       <p className="flex-1 text-sm">
         Confira meu perfil completo e cursos complementares no LinkedIn.

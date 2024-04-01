@@ -27,54 +27,54 @@ export function Techs() {
       className="grid w-fit grid-cols-2 gap-x-6 gap-y-3 pt-8 sm:grid-cols-3 sm:gap-y-4 sm:pt-12 md:grid-cols-4"
     >
       <TechItem>
-        <SiTypescript className="text-muted-100 xs:size-5 size-4 transition-colors group-hover:text-[#3178C6]" />
+        <SiTypescript className="size-4 text-muted-100 transition-colors group-hover:text-[#3178C6] xs:size-5" />
         Typescript
       </TechItem>
       <TechItem>
-        <SiReact className="text-muted-100 xs:size-5 size-4 transition-colors group-hover:text-[#61DAFB]" />
+        <SiReact className="size-4 text-muted-100 transition-colors group-hover:text-[#61DAFB] xs:size-5" />
         React
       </TechItem>
       <TechItem>
-        <SiNextdotjs className="text-muted-100 xs:size-5 size-4 transition-colors group-hover:text-[#000000]" />
+        <SiNextdotjs className="size-4 text-muted-100 transition-colors group-hover:text-[#000000] xs:size-5" />
         Next.js
       </TechItem>
       <TechItem>
-        <SiNodedotjs className="text-muted-100 xs:size-5 size-4 transition-colors group-hover:text-[#339933]" />
+        <SiNodedotjs className="size-4 text-muted-100 transition-colors group-hover:text-[#339933] xs:size-5" />
         Node.js
       </TechItem>
 
       <TechItem>
-        <SiRedux className="text-muted-100 xs:size-5 size-4 transition-colors group-hover:text-[#764ABC]" />
+        <SiRedux className="size-4 text-muted-100 transition-colors group-hover:text-[#764ABC] xs:size-5" />
         Redux
       </TechItem>
       <TechItem>
-        <SiTailwindcss className="text-muted-100 xs:size-5 size-4 transition-colors group-hover:text-[#06B6D4]" />
+        <SiTailwindcss className="size-4 text-muted-100 transition-colors group-hover:text-[#06B6D4] xs:size-5" />
         Tailwind CSS
       </TechItem>
       <TechItem>
-        <SiStyledcomponents className="text-muted-100 xs:size-5 size-4 transition-colors group-hover:text-[#DB7093]" />
+        <SiStyledcomponents className="size-4 text-muted-100 transition-colors group-hover:text-[#DB7093] xs:size-5" />
         styled-components
       </TechItem>
 
       <TechItem>
-        <SiPostgresql className="text-muted-100 xs:size-5 size-4 transition-colors group-hover:text-[#4169E1]" />
+        <SiPostgresql className="size-4 text-muted-100 transition-colors group-hover:text-[#4169E1] xs:size-5" />
         PostgreSQL
       </TechItem>
       <TechItem>
-        <SiSqlite className="text-muted-100 xs:size-5 size-4 transition-colors group-hover:text-[#003B57]" />
+        <SiSqlite className="size-4 text-muted-100 transition-colors group-hover:text-[#003B57] xs:size-5" />
         SQLite
       </TechItem>
       <TechItem>
-        <SiFirebase className="text-muted-100 xs:size-5 size-4 transition-colors group-hover:text-[#FFCA28]" />
+        <SiFirebase className="size-4 text-muted-100 transition-colors group-hover:text-[#FFCA28] xs:size-5" />
         Firebase
       </TechItem>
       <TechItem>
-        <SiDocker className="text-muted-100 xs:size-5 size-4 transition-colors group-hover:text-[#2496ED]" />
+        <SiDocker className="size-4 text-muted-100 transition-colors group-hover:text-[#2496ED] xs:size-5" />
         Docker
       </TechItem>
 
       <TechItem>
-        <SiFigma className="text-muted-100 xs:size-5 size-4 transition-colors group-hover:text-[#F24E1E]" />
+        <SiFigma className="size-4 text-muted-100 transition-colors group-hover:text-[#F24E1E] xs:size-5" />
         Figma
       </TechItem>
     </Animate>

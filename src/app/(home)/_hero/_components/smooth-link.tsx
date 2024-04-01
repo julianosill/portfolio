@@ -15,11 +15,11 @@ export function SmoothLink({ delay, duration, ...props }: SmoothLinkProps) {
       delay={delay}
       as="a"
       className={twMerge(
-        'xs:gap-2 group flex w-fit items-center gap-1.5',
-        'text-strong font-medium underline-offset-4',
-        'border-border-100 border-b',
-        'hover:border-primary transition-colors duration-300',
-        'focus-visible:outline-primary outline-offset-2',
+        'group flex w-fit items-center gap-1.5 xs:gap-2',
+        'font-medium text-strong underline-offset-4',
+        'border-b border-border-100',
+        'transition-colors duration-300 hover:border-primary',
+        'outline-offset-2 focus-visible:outline-primary',
       )}
       {...props}
     />

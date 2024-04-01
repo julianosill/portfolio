@@ -11,7 +11,7 @@ export function Contact() {
     <section id="contact" className="mx-auto w-10/12 max-w-2xl py-20 md:py-24">
       <Title asChild className="mb-10 md:mb-12">
         <Animate as="h2">
-          <ContactRound className="text-border-50 size-6 min-w-6" />
+          <ContactRound className="size-6 min-w-6 text-border-50" />
           Que tal me recrutar para sua equipe?
         </Animate>
       </Title>

@@ -12,7 +12,7 @@ export function Button({ className, asChild, ...props }: ButtonProps) {
   return (
     <Comp
       className={twMerge(
-        'border-border-100 text-highlighted flex items-center justify-center gap-2 rounded-md border px-3 py-1.5 text-sm font-medium transition-colors',
+        'flex items-center justify-center gap-2 rounded-md border border-border-100 px-3 py-1.5 text-sm font-medium text-highlighted transition-colors',
         'hover:border-primary hover:bg-primary hover:text-white',
         'focus-visible:border-primary focus-visible:outline-primary',
         className,

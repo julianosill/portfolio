@@ -29,7 +29,7 @@ export function ProjectCard({
       long
       delay={delay}
       className={twMerge(
-        'border-border-50 bg-card overflow-hidden rounded-xl border md:col-span-2',
+        'overflow-hidden rounded-xl border border-border-50 bg-card md:col-span-2',
         isCentered && 'md:col-start-2',
       )}
     >
@@ -53,7 +53,7 @@ export function ProjectCard({
         />
       </video>
       <div className="p-6 xl:p-8">
-        <h3 className="text-strong text-xl font-medium">{project.name}</h3>
+        <h3 className="text-xl font-medium text-strong">{project.name}</h3>
         <p className="pt-2 text-sm xl:text-base">{project.description}</p>
         <div className="flex flex-wrap items-center gap-2 pt-6">
           {project.urlPreview && (

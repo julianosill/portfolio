@@ -41,14 +41,14 @@ export function Menu() {
           <Link
             href="/"
             aria-label="Acessar página inicial"
-            className="focus-visible:outline-primary outline-offset-4"
+            className="outline-offset-4 focus-visible:outline-primary"
           >
-            <Logo className="fill-muted-50 size-7 sm:size-8" />
+            <Logo className="size-7 fill-muted-50 sm:size-8" />
           </Link>
 
           <Collapsible.Trigger
             onClick={handleCloseMenu}
-            className="text-highlighted focus-visible:outline-primary outline-offset-2 sm:hidden"
+            className="text-highlighted outline-offset-2 focus-visible:outline-primary sm:hidden"
           >
             {open ? (
               <>
@@ -68,7 +68,7 @@ export function Menu() {
           forceMount
           className="flex items-center gap-12 max-sm:flex-col sm:flex-1 sm:justify-between"
         >
-          <nav className="flex max-sm:w-full max-sm:flex-col max-sm:divide-y max-sm:divide-zinc-200 sm:gap-8 sm:text-sm max-sm:dark:divide-zinc-700">
+          <nav className="flex max-sm:w-full max-sm:flex-col max-sm:divide-y max-sm:divide-zinc-200 max-sm:dark:divide-zinc-700 sm:gap-8 sm:text-sm">
             <MenuItem href="#about-me" onClick={handleCloseMenu}>
               Sobre mim
             </MenuItem>

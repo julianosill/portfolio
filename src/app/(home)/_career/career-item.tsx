@@ -23,23 +23,23 @@ export function CareerItem({
     <Animate
       delay={delay}
       as="article"
-      className="sm:grid-cols-career sm:grid sm:gap-4"
+      className="sm:grid sm:grid-cols-career sm:gap-4"
     >
-      <div className="max-sm:border-border-50 flex flex-col gap-1 pl-4 max-sm:border-l max-sm:pb-4 sm:items-end ">
-        <h3 className="text-strong font-medium">{data.institution}</h3>
+      <div className="flex flex-col gap-1 pl-4 max-sm:border-l max-sm:border-border-50 max-sm:pb-4 sm:items-end ">
+        <h3 className="font-medium text-strong">{data.institution}</h3>
         <span className="text-sm">{data.period}</span>
         {data.type && (
-          <span className="text-muted-50 text-sm">{data.type}</span>
+          <span className="text-sm text-muted-50">{data.type}</span>
         )}
       </div>
       <div
         className={twMerge(
-          'border-border-50 relative border-l pl-4',
+          'relative border-l border-border-50 pl-4',
           isLast ? null : 'pb-8',
         )}
       >
-        <span className="bg-primary absolute -left-[4px] top-2 block size-[7px] rounded-full" />
-        <h4 className="text-strong pb-2 text-lg font-medium leading-snug">
+        <span className="absolute -left-[4px] top-2 block size-[7px] rounded-full bg-primary" />
+        <h4 className="pb-2 text-lg font-medium leading-snug text-strong">
           {data.position}
         </h4>
         <p>{data.description}</p>

@@ -8,9 +8,9 @@ export function MenuItem(props: ComponentProps<'a'>) {
     <a
       className={twMerge(
         'whitespace-nowrap max-sm:py-4 max-sm:text-lg',
-        'hover:text-strong text-center transition-all',
-        'sm:hover:border-primary sm:border-b sm:border-transparent',
-        'focus-visible:outline-primary outline-offset-2',
+        'text-center transition-all hover:text-strong',
+        'sm:border-b sm:border-transparent sm:hover:border-primary',
+        'outline-offset-2 focus-visible:outline-primary',
       )}
       {...props}
     />

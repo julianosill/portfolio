@@ -5,8 +5,8 @@ export function TextLink(props: ComponentProps<'a'>) {
   return (
     <a
       className={twMerge(
-        'text-strong font-medium underline underline-offset-2 transition-colors',
-        'hover:text-primary focus-visible:outline-primary outline-offset-4',
+        'font-medium text-strong underline underline-offset-2 transition-colors',
+        'outline-offset-4 hover:text-primary focus-visible:outline-primary',
       )}
       {...props}
     />
