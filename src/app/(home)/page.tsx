@@ -1,4 +1,5 @@
 import { Menu } from '@/components/menu/menu'
+import { ScrollToTop } from '@/components/scroll-to-top'
 
 import { About } from './_about'
 import { Career } from './_career'
@@ -15,6 +16,7 @@ export default function Home() {
       <Projects />
       <Career />
       <Contact />
+      <ScrollToTop />
     </main>
   )
 }
