@@ -2,6 +2,7 @@ import { Menu } from '@/components/menu/menu'
 
 import { About } from './_about'
 import { Career } from './_career'
+import { Contact } from './_contact'
 import { Hero } from './_hero'
 import { Projects } from './_projects'
 
@@ -13,6 +14,7 @@ export default function Home() {
       <About />
       <Projects />
       <Career />
+      <Contact />
     </main>
   )
 }
