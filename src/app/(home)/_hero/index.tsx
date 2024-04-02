@@ -18,10 +18,14 @@ export function Hero() {
         >
           Juliano Sill
         </Animate>
-        <div className="space-y-2 pt-6 max-sm:leading-snug sm:pt-8 sm:text-lg">
+        <div className="space-y-3 pt-6 max-sm:leading-snug sm:pt-8 sm:text-lg">
           <Animate variant="fadeLeft" duration={0.55} delay={0.05} as="p">
-            <span className="text-strong">Desenvolvedor Front-End</span> movido
-            a café e curiosidade.
+            <span className="text-strong">Desenvolvedor Front-End</span>, movido
+            a café e curiosidade, com habilidades sólidas em{' '}
+            <span className="text-highlighted">Typescript</span>,{' '}
+            <span className="text-highlighted">React</span>,{' '}
+            <span className="text-highlighted">Next.js</span> e{' '}
+            <span className="text-highlighted">Node.js</span>.
           </Animate>
           <Animate variant="fadeLeft" duration={0.6} delay={0.05} as="p">
             Agregando mais de 10 anos de experiência em design no
