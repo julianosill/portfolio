@@ -59,7 +59,7 @@ export function ProjectCard({
           {project.urlPreview && (
             <Button href={project.urlPreview}>
               <Eye className="size-4" />
-              Preview
+              Acessar
             </Button>
           )}
           {project.urlGithub && (

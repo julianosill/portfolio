@@ -8,10 +8,17 @@ export const projects: IProject[] = [
     image: `${env.APP_URL}/memonotes.jpg`,
     name: 'Memonotes',
     description:
-      'Aplicação web para gerenciar notas de texto, incluindo transcrição em tempo real (Speech to Text). Desenvolvida com a Speech Recognition Web API e com uma interface animada, acessível e navegável pelo teclado.',
+      'Aplicação web para gerenciar notas de texto, com transcrição em tempo real (Speech to Text) e interface acessível e navegável pelo teclado. Desenvolvida em Next.js 14, integrando banco de dados Firebase (NoSQL) e autenticação via Google.',
     urlPreview: 'https://memonotes-js.vercel.app',
     urlGithub: 'https://github.com/julianosill/memonotes',
-    techs: ['Next.js', 'React', 'Tailwind CSS', 'Zustand', 'Radix UI'],
+    techs: [
+      'Next.js 14',
+      'React',
+      'Firebase',
+      'Next Auth',
+      'Tailwind CSS',
+      'Radix UI',
+    ],
   },
   {
     id: 'pizzashop',
