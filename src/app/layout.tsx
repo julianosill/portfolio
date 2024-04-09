@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     default: 'Juliano Sill | Desenvolvedor Front-End',
   },
   description:
-    'Desenvolvedor Front-End com foco em Typescript, React, Next.js e Node.js.',
+    'Desenvolvedor Front-End com habilidades sólidas em Typescript, React, Next.js e Node.js.',
   metadataBase: new URL(env.APP_URL),
 }
 
@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html
       lang="pt-BR"
-      className={`${GeistSans.variable} scroll-smooth antialiased scrollbar-thin scrollbar-track-transparent scrollbar-thumb-zinc-500`}
+      className={`${GeistSans.variable} scroll-smooth rounded-full antialiased scrollbar-thin scrollbar-track-transparent scrollbar-thumb-zinc-500`}
       suppressHydrationWarning
     >
       <body className="antialiased">

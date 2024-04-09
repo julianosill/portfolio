@@ -9,7 +9,7 @@ export const projects: IProject[] = [
     name: 'Memonotes',
     description:
       'Aplicação web para gerenciar notas de texto, com transcrição em tempo real (Speech to Text) e interface acessível e navegável pelo teclado. Desenvolvida em Next.js 14, integrando banco de dados Firebase (NoSQL) e autenticação via Google.',
-    urlPreview: 'https://memonotes-js.vercel.app',
+    urlPreview: 'https://memonotes.julianosill.com.br',
     urlGithub: 'https://github.com/julianosill/memonotes',
     techs: [
       'Next.js 14',
