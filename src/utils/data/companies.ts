@@ -8,7 +8,7 @@ export const companies: ICareerItem[] = [
     type: 'Terceirizado / Remoto',
     position: 'Web Designer e Desenvolvedor Front-End',
     description:
-      'Focado na criação de layouts e protótipos para sites institucionais, utilizando Figma, e na aplicação destes em Wordpress, desenvolvendo temas em PHP.',
+      'Focado na criação de layouts e protótipos para sites institucionais, utilizando Figma, e no desenvolvimento destes sites em Wordpress, trabalhando com HTML, CSS, Javascript, Tailwind CSS e PHP.',
     tools: ['Figma', 'Wordpress', 'Javascript', 'PHP', 'Tailwind CSS', 'SASS'],
   },
   {

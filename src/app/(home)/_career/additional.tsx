@@ -1,3 +1,4 @@
+import { FileText } from 'lucide-react'
 import { SiLinkedin } from 'react-icons/si'
 
 import { Animate } from '@/components/animate'
@@ -10,12 +11,17 @@ export function Additional() {
       className="mt-8 flex gap-4 rounded-lg bg-card px-5 py-4 max-md:flex-col md:mt-12 md:items-center"
     >
       <p className="flex-1 text-sm">
-        Confira meu perfil completo e cursos complementares no LinkedIn.
+        Confira meu perfil, trajetória completa e cursos complementares no
+        LinkedIn.
       </p>
       <div className="flex flex-wrap gap-4">
         <Button href="https://www.linkedin.com/in/julianosill">
           <SiLinkedin className="size-4" />
           Ver LinkedIn
+        </Button>
+        <Button href="/Juliano_Sill---Curriculo.pdf">
+          <FileText className="size-4" />
+          Baixar CV
         </Button>
       </div>
     </Animate>
