@@ -15,13 +15,12 @@ export function Knowledge() {
           <span className="font-medium text-highlighted">
             Libs e Frameworks:
           </span>{' '}
-          React, Next.js, React Query, React Hook Form, Redux, TailwindCSS,
-          Charts.js, styled-components, SASS, Radix UI, Zustand, NestJS, Prisma
-          ORM
+          React, Next.js, NestJS, React Query, React Hook Form, Redux, SASS,
+          TailwindCSS, styled-components
         </li>
         <li>
           <span className="font-medium text-highlighted">Testes:</span>{' '}
-          Unitários, E2E, Cypress, Playwright, Jest, Vitest, MSW, Happy DOM
+          Unitários, E2E, Cypress, Playwright, Jest, Vitest
         </li>
         <li>
           <span className="font-medium text-highlighted">Banco de dados:</span>{' '}
@@ -30,8 +29,7 @@ export function Knowledge() {
         <li>
           <span className="font-medium text-highlighted">Conceitos:</span>{' '}
           Design Patterns, SOLID, Clean Code e Clean Architecture, CI/CD,
-          Domain-driven design, Test-driven development, Programação orientada a
-          objetos
+          Domain-driven design, Test-driven development
         </li>
         <li>
           <span className="font-medium text-highlighted">Idiomas:</span> Inglês

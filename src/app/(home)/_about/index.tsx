@@ -23,7 +23,7 @@ export function About() {
           equipe.
         </Animate>
         <Animate delay={0.1} as="p">
-          Minha atuação segue alinhada às boas práticas no desenvolvimento,
+          Minha atuação está alinhada às boas práticas no desenvolvimento,
           mantendo a legibilidade e manutenibilidade do código. Com minha
           experiência em design, faço bom uso dos conceitos de UI e UX para
           desenvolver aplicações práticas, acessíveis e intuitivas,
