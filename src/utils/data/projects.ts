@@ -3,12 +3,30 @@ import { env } from '@/env'
 
 export const projects: IProject[] = [
   {
+    id: 'falaqueeuteescrevo',
+    video: `${env.APP_URL}/falaqueeuteescrevo.mp4`,
+    image: `${env.APP_URL}/falaqueeuteescrevo.jpg`,
+    name: 'Fala que eu te escrevo',
+    description:
+      'Aplicação Web para transcrição de áudios e vídeos integrada à Azure Speech AI. Desenvolvida em Next.js 14, utilizando Material UI e conversão de áudio e vídeo feita com FFmpeg.',
+    urlPreview: 'https://falaqueeuteescrevo.julianosill.com.br',
+    urlGithub: 'https://github.com/julianosill/falaqueeuteescrevo',
+    techs: [
+      'Next.js 14',
+      'React',
+      'Azure Speech AI',
+      'Material UI',
+      'Redux',
+      'FFmpeg',
+    ],
+  },
+  {
     id: 'memonotes',
     video: `${env.APP_URL}/memonotes.mp4`,
     image: `${env.APP_URL}/memonotes.jpg`,
     name: 'Memonotes',
     description:
-      'Aplicação web para gerenciar notas de texto, com transcrição em tempo real (Speech to Text) e interface acessível e navegável pelo teclado. Desenvolvida em Next.js 14, integrando banco de dados Firebase (NoSQL) e autenticação via Google.',
+      'Aplicação Web para gerenciar notas de texto, com transcrição em tempo real (Speech to Text) e interface acessível e navegável pelo teclado. Desenvolvida em Next.js 14, integrando banco de dados Firebase (NoSQL) e autenticação via Google.',
     urlPreview: 'https://memonotes.julianosill.com.br',
     urlGithub: 'https://github.com/julianosill/memonotes',
     techs: [

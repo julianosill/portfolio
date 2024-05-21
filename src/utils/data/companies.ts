@@ -5,7 +5,7 @@ export const companies: ICareerItem[] = [
     id: 'inspiracom-web',
     institution: 'Inspiracom',
     period: 'Dez 2023 - Presente',
-    type: 'Terceirizado / Remoto',
+    type: 'Freelancer / Remoto',
     position: 'Web Designer e Desenvolvedor Front-End',
     description:
       'Focado na criação de layouts e protótipos para sites institucionais, utilizando Figma, e no desenvolvimento destes sites em Wordpress, trabalhando com HTML, CSS, Javascript, Tailwind CSS e PHP.',
