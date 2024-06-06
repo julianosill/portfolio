@@ -34,7 +34,7 @@ export function ProjectCard({
       )}
     >
       <video
-        className="aspect-video border-b object-cover"
+        className="aspect-video border-b border-border-50 object-cover"
         width="720"
         height="405"
         autoPlay
