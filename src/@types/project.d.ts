@@ -1,6 +1,7 @@
 export interface IProject {
   id: string
-  video: string
+  pending?: boolean
+  video?: string
   image: string
   name: string
   description: string

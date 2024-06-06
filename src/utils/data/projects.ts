@@ -3,6 +3,24 @@ import { env } from '@/env'
 
 export const projects: IProject[] = [
   {
+    id: 'ideasales',
+    pending: true,
+    image: `${env.APP_URL}/ideasales.jpg`,
+    name: 'Idea Sales',
+    description:
+      'Solução desenvolvida sob medida como apoio ao e-commerce de uma fábrica de móveis local. A aplicação fornece e facilita a visualização de relatórios e gráficos de vendas com opções de filtros por produto, data, semana, mês e ano.',
+    techs: [
+      'Next.js 14',
+      'React',
+      'React Query',
+      'Tailwind CSS',
+      'shadcn/ui',
+      'Chart.js',
+      'Jest',
+      'PostgreSQL',
+    ],
+  },
+  {
     id: 'falaqueeuteescrevo',
     video: `${env.APP_URL}/falaqueeuteescrevo.mp4`,
     image: `${env.APP_URL}/falaqueeuteescrevo.jpg`,
