@@ -4,7 +4,7 @@ import { Animate } from '@/components/animate'
 import { Title } from '@/components/ui/title'
 import { courses } from '@/utils/data/courses'
 
-import { CareerItem } from './career-item'
+import { CourseItem } from './course-item'
 
 export function Education() {
   return (
@@ -18,7 +18,7 @@ export function Education() {
       {courses.map((course, index) => {
         const isLast = index === courses.length - 1
         return (
-          <CareerItem
+          <CourseItem
             key={course.id}
             data={course}
             baseDelay={0.1}

@@ -16,18 +16,17 @@ export function About() {
       </Title>
       <div className="space-y-4">
         <Animate delay={0.05} as="p">
-          Iniciei a carreira como Designer Gráfico, me graduei em Publicidade e
-          Propaganda e trabalhei com design por mais de 10 anos. Somei
-          experiências em mercados B2B e B2C, aprimorando e desenvolvendo minhas
-          habilidades técnicas, de comunicação, organização e trabalho em
-          equipe.
+          Possuo habilidades sólidas em Typescript, React, Next, Node e mais de
+          10 anos de experiência em design. Atuei em mercados B2B e B2C, onde
+          aprimorei minhas habilidades técnicas, de comunicação, organização e
+          trabalho em equipe.
         </Animate>
         <Animate delay={0.1} as="p">
-          Minha atuação está alinhada às boas práticas no desenvolvimento,
-          mantendo a legibilidade e manutenibilidade do código. Com minha
-          experiência em design, faço bom uso dos conceitos de UI e UX para
-          desenvolver aplicações práticas, acessíveis e intuitivas,
-          proporcionando uma boa experiência aos usuários.
+          Também atuo como Desenvolvedor Front-End voluntário em um projeto
+          colaborativo, contribuindo na criação, implementação e manutenção de
+          componentes e funcionalidades, integrando APIs e assegurando a
+          qualidade através de revisões de código da equipe e metodologias
+          ágeis.
         </Animate>
       </div>
 

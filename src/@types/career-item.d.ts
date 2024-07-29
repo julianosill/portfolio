@@ -1,9 +1,13 @@
+type Activity = {
+  id: string
+  text: string
+}
+
 export interface ICareerItem {
   id: string
-  institution: string
+  company: string
   period: string
   type?: string
   position: string
-  description: string
-  tools: string[]
+  activities: Activity[]
 }

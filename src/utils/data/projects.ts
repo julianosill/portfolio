@@ -8,7 +8,7 @@ export const projects: IProject[] = [
     image: `${env.APP_URL}/ideasales.jpg`,
     name: 'Idea Sales',
     description:
-      'Solução desenvolvida sob medida como apoio ao e-commerce de uma fábrica de móveis local. A aplicação fornece e facilita a visualização de relatórios e gráficos de vendas com opções de filtros por produto, data, semana, mês e ano.',
+      'Solução desenvolvida sob medida para uma fábrica de móveis local. A aplicação facilita a visualização e análise de desempenho de vendas através de relatórios e gráficos com filtros e ordenações por produto e datas.',
     techs: [
       'Next.js 14',
       'React',
@@ -26,13 +26,13 @@ export const projects: IProject[] = [
     image: `${env.APP_URL}/falaqueeuteescrevo.jpg`,
     name: 'Fala que eu te escrevo',
     description:
-      'Aplicação Web para transcrição de áudios e vídeos integrada à Azure Speech AI. Desenvolvida em Next.js 14, utilizando Material UI e conversão de áudio e vídeo feita com FFmpeg.',
+      'Aplicação web para transcrição de áudios e vídeos integrada à Microsoft Azure AI Speech. Desenvolvida em Next.js 14, utilizando Material UI e conversão de áudio e vídeo utilizando Web Assembly e FFmpeg.',
     urlPreview: 'https://falaqueeuteescrevo.julianosill.com.br',
     urlGithub: 'https://github.com/julianosill/falaqueeuteescrevo',
     techs: [
       'Next.js 14',
       'React',
-      'Azure Speech AI',
+      'Microsoft Azure AI Speech',
       'Material UI',
       'Redux',
       'FFmpeg',
@@ -44,7 +44,7 @@ export const projects: IProject[] = [
     image: `${env.APP_URL}/memonotes.jpg`,
     name: 'Memonotes',
     description:
-      'Aplicação Web para gerenciar notas de texto, com transcrição em tempo real (Speech to Text) e interface acessível e navegável pelo teclado. Desenvolvida em Next.js 14, integrando banco de dados Firebase (NoSQL) e autenticação via Google.',
+      'Aplicação web de gerenciamento notas de texto, com transcrição em tempo real (Speech to Text) e interface acessível. Desenvolvida em Next.js 14, integrando banco de dados Firebase (NoSQL) e autenticação via Google.',
     urlPreview: 'https://memonotes.julianosill.com.br',
     urlGithub: 'https://github.com/julianosill/memonotes',
     techs: [
@@ -52,8 +52,10 @@ export const projects: IProject[] = [
       'React',
       'Firebase',
       'Next Auth',
+      'OAuth',
       'Tailwind CSS',
       'Radix UI',
+      'Framer Motion',
     ],
   },
   {
@@ -62,7 +64,7 @@ export const projects: IProject[] = [
     image: `${env.APP_URL}/pizzashop.jpg`,
     name: 'Pizza Shop',
     description:
-      'Dashboard para gerenciamento de pedidos de delivery, com gráficos e métricas. Faz uso de cache nas requisições com React Query, reduzindo o uso de recursos da API e melhorando a experiência de uso.',
+      'Dashboard para gerenciamento de pedidos de delivery, com gráficos e métricas. Faz uso de cache nas requisições com React Query, reduzindo o uso de recursos da API e melhorando a experiência do usário.',
     urlGithub: 'https://github.com/julianosill/ignite-pizzashop-web',
     urlGithubApi: 'https://github.com/julianosill/bun-pizzashop-api',
     techs: [

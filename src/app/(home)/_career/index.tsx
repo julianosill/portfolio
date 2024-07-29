@@ -17,11 +17,12 @@ export function Career() {
         </Animate>
       </Title>
       <Animate delay={0.05} as="p">
-        Ao longo da carreira, atuei em agências de comunicação, produtora de
-        eventos e editora, em posições relacionadas ao design e marketing. Somei
-        experiências em mercados B2B e B2C, aprimorando e desenvolvendo minhas
-        habilidades técnicas, de comunicação e trabalho em equipe. Abaixo estão
-        as minhas atuações mais recentes.
+        Iniciando como Designer Gráfico, passei por agências de comunicação,
+        produtora de eventos e editora, em posições relacionadas ao design e
+        marketing. Atualmente, venho desenvolvendo minha carreira como
+        Desenvolvedor Front-End, buscando me especializar e aprimorar a
+        qualidade e resultados do meu trabalho. Abaixo estão as minhas atuações
+        mais recentes.
       </Animate>
 
       <Companies />

@@ -9,40 +9,46 @@ export function Knowledge() {
       <Animate delay={0.2} as="ul" className="space-y-2 pt-4 text-sm">
         <li>
           <span className="font-medium text-highlighted">Idiomas:</span> Inglês
-          (Avançado), Espanhol (Básico), Português (Nativo)
+          (Avançado), Espanhol (Básico), Português (Nativo).
         </li>
         <li>
           <span className="font-medium text-highlighted">
             Linguagens e tecnologias:
           </span>{' '}
-          Javascript, Typescript, Node.js, React, Next.js, NestJS, PHP
+          Javascript, Typescript, React, Next.js, Node.js, HTML, CSS, SASS, Git.
         </li>
         <li>
-          <span className="font-medium text-highlighted">Bibliotecas:</span>{' '}
-          React Query, React Hook Form, Redux, SASS, Tailwind CSS,
-          styled-components
+          <span className="font-medium text-highlighted">
+            Bibliotecas e ferramentas:
+          </span>{' '}
+          React Query, React Hook Form, Redux, Tailwind CSS, styled-components,
+          Bootstrap, Framer Motion, Docker, Figma.
         </li>
         <li>
           <span className="font-medium text-highlighted">
             Testes automatizados:
           </span>{' '}
-          unitários, E2E, Cypress, Playwright, Jest, Vitest
+          unitários, integração (E2E), React Testing Library, Cypress,
+          Playwright, Jest.
         </li>
         <li>
           <span className="font-medium text-highlighted">
             Banco de dados SQL e NoSQL:
           </span>{' '}
-          PostgreSQL, SQLite, Firebase, Docker
+          PostgreSQL, SQLite, Firebase.
         </li>
         <li>
           <span className="font-medium text-highlighted">Conceitos:</span>{' '}
-          Design Patterns, SOLID, Clean Code e Clean Architecture, CI/CD,
-          Domain-driven design, Test-driven development
+          Design Pattern, Composition Pattern, Atomic Design, Git Flow, SOLID,
+          Clean Code, Clean Architecture, Domain-driven design, Test-driven
+          development, DevOps, CI/CD.
         </li>
 
         <li>
-          <span className="font-medium text-highlighted">Metodologias:</span>{' '}
-          Scrum e Kanban
+          <span className="font-medium text-highlighted">
+            Metodologias ágeis:
+          </span>{' '}
+          Scrum, Kanban, Jira.
         </li>
       </Animate>
     </div>
