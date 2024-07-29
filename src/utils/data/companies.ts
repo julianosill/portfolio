@@ -10,7 +10,7 @@ export const companies: ICareerItem[] = [
     activities: [
       {
         id: 'sj-1',
-        text: 'Atuação de forma colaborativa com POs, PMs, designers, desenvolvedores e QAs no desenvolvimento e melhoraria contínua da plataforma;',
+        text: 'Atuação de forma colaborativa com POs, PMs, designers, desenvolvedores e QAs no desenvolvimento e melhoria contínua da plataforma;',
       },
       {
         id: 'sj-2',
@@ -26,7 +26,7 @@ export const companies: ICareerItem[] = [
       },
       {
         id: 'sj-5',
-        text: 'Aplicação de boas práticas, revisão e análise do código, assegurando a qualidade.',
+        text: 'Revisão e análise do código, assegurando sua qualidade e boas práticas no desenvolvimento.',
       },
     ],
   },
