@@ -3,12 +3,31 @@ import { env } from '@/env'
 
 export const projects: IProject[] = [
   {
+    id: 'livetrack',
+    video: `${env.APP_URL}/livetrack.mp4`,
+    image: `${env.APP_URL}/livetrack-dark.jpg`,
+    name: 'Livetrack',
+    description:
+      'Capture em tempo real os comentários das lives e os SuperChats enviados ao seu canal do YouTube, e salve-os diretamente em uma planilha do Google Sheets ou exporte em formato .csv.',
+    urlPreview: 'https://livetrack.julianosill.com.br/',
+    urlGithub: 'https://github.com/julianosill/livetrack',
+    techs: [
+      'Google API',
+      'Next.js 14',
+      'Node.js',
+      'React',
+      'React Hook Form',
+      'Tailwind CSS',
+      'shadcn/ui',
+    ],
+  },
+  {
     id: 'ideasales',
     pending: true,
     image: `${env.APP_URL}/ideasales.jpg`,
     name: 'Idea Sales',
     description:
-      'Solução desenvolvida sob medida para uma fábrica de móveis local. A aplicação facilita a visualização e análise de desempenho de vendas através de relatórios e gráficos com filtros e ordenações por produto e datas.',
+      'Solução sob medida para uma fábrica de móveis local. A aplicação facilita a visualização e análise de desempenho de vendas através de relatórios e gráficos detalhados com diversas estatísticas.',
     techs: [
       'Next.js 14',
       'React',
