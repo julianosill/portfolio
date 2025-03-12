@@ -1,7 +1,7 @@
 import { GraduationCap } from 'lucide-react'
 
-import { Animate } from '@/components/animate'
-import { Title } from '@/components/ui/title'
+import { Animate } from '@/components'
+import { Title } from '@/components/ui'
 import { courses } from '@/utils/data/courses'
 
 import { CourseItem } from './course-item'

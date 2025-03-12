@@ -4,9 +4,8 @@ import { SiGithub } from 'react-icons/si'
 import { twMerge } from 'tailwind-merge'
 
 import type { Project } from '@/@types'
-import { Animate } from '@/components/animate'
-
-import { Button } from '../../../components/ui/button'
+import { Animate } from '@/components'
+import { Button } from '@/components/ui'
 
 interface ProjectCardProps {
   project: Project

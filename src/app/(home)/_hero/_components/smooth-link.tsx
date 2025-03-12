@@ -1,7 +1,7 @@
 import { ComponentProps } from 'react'
 import { twMerge } from 'tailwind-merge'
 
-import { Animate } from '@/components/animate'
+import { Animate } from '@/components'
 
 interface SmoothLinkProps extends ComponentProps<'a'> {
   delay?: number

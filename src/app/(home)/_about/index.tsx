@@ -1,7 +1,7 @@
 import { UserRound } from 'lucide-react'
 
-import { Animate } from '@/components/animate'
-import { Title } from '@/components/ui/title'
+import { Animate } from '@/components'
+import { Title } from '@/components/ui'
 
 import { Knowledge } from './knowledge'
 

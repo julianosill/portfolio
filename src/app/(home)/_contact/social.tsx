@@ -1,8 +1,8 @@
 import { Mail } from 'lucide-react'
 import { SiGithub, SiLinkedin } from 'react-icons/si'
 
-import { Animate } from '@/components/animate'
-import { Button } from '@/components/ui/button'
+import { Animate } from '@/components'
+import { Button } from '@/components/ui'
 
 export function Social() {
   return (

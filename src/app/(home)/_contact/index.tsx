@@ -1,8 +1,7 @@
 import { ContactRound } from 'lucide-react'
 
-import { Animate } from '@/components/animate'
-import { TextLink } from '@/components/ui/text-link'
-import { Title } from '@/components/ui/title'
+import { Animate } from '@/components'
+import { TextLink, Title } from '@/components/ui'
 
 import { Social } from './social'
 

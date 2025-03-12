@@ -13,7 +13,7 @@ import {
   SiTypescript,
 } from 'react-icons/si'
 
-import { Animate } from '@/components/animate'
+import { Animate } from '@/components'
 
 import { TechItem } from './_components/tech-item'
 

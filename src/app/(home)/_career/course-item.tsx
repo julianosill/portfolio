@@ -1,7 +1,7 @@
 import { twMerge } from 'tailwind-merge'
 
 import type { ICourseItem } from '@/@types/course-item'
-import { Animate } from '@/components/animate'
+import { Animate } from '@/components'
 
 interface CareerItemProps {
   data: ICourseItem

@@ -6,8 +6,8 @@ import Link from 'next/link'
 import { useState } from 'react'
 import { twMerge } from 'tailwind-merge'
 
-import { Logo } from '@/components/logo'
-import { ThemeSwitcher } from '@/components/theme/theme-switcher'
+import { Logo } from '@/components'
+import { ThemeSwitcher } from '@/components/theme'
 
 import { MenuItem } from './menu-item'
 

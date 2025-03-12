@@ -1,8 +1,8 @@
 import { ArrowDown, LayoutGrid, UserRound } from 'lucide-react'
 import { SiGithub, SiLinkedin } from 'react-icons/si'
 
-import { Animate } from '@/components/animate'
-import { Button } from '@/components/ui/button'
+import { Animate } from '@/components'
+import { Button } from '@/components/ui'
 
 import { SmoothLink } from './_components/smooth-link'
 import { Techs } from './techs'
