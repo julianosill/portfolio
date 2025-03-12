@@ -3,30 +3,33 @@ import Image from 'next/image'
 import { SiGithub } from 'react-icons/si'
 import { twMerge } from 'tailwind-merge'
 
-import { IProject } from '@/@types/project'
+import type { Project } from '@/@types'
 import { Animate } from '@/components/animate'
 
 import { Button } from '../../../components/ui/button'
 
 interface ProjectCardProps {
-  project: IProject
+  project: Project
   baseDelay?: number
   index: number
   isCentered?: boolean
 }
 
 export function ProjectCard({
-  project,
-  baseDelay = 0,
   index,
+  project,
   isCentered,
+  baseDelay = 0,
 }: ProjectCardProps) {
-  const techs = project.techs.map((tech) => tech).join(', ') + '.'
   const delay = baseDelay + index * 0.1
+
+  const videoUrl = project.video ? project.video.url : ''
+  const stack = project.stack.map((tech) => tech).join(', ') + '.'
 
   return (
     <Animate
       long
+      as="article"
       delay={delay}
       className={twMerge(
         'flex flex-col overflow-hidden rounded-xl border border-border-50 bg-card md:col-span-2',
@@ -34,33 +37,35 @@ export function ProjectCard({
       )}
     >
       <video
-        className="aspect-video border-b border-border-50 object-cover"
-        width="720"
-        height="405"
-        autoPlay
-        playsInline
         loop
         muted
-        poster={project.image}
+        autoPlay
+        playsInline
+        width="720"
+        height="405"
+        poster={project.image.url}
+        className="aspect-video border-b border-border-50 object-cover"
       >
-        <source src={project.video} type="video/mp4" />
+        <source src={videoUrl} type="video/mp4" />
         <Image
-          src={project.image}
           width={720}
           height={405}
-          alt="Imagem com a tela inicial da aplicação"
+          src={project.image.url}
           className="aspect-video object-cover"
+          alt="Imagem com a tela inicial da aplicação"
         />
       </video>
+
       <div className="flex flex-1 flex-col p-6 xl:p-8">
         <h3 className="text-xl font-medium text-strong">{project.name}</h3>
         <p className="pt-2 text-sm xl:text-base">{project.description}</p>
+
         <div className="flex flex-1 flex-wrap items-start gap-2 pt-6">
-          {project.pending && (
-            <div className="flex cursor-default items-center gap-2 rounded-md border border-border-100 px-3 py-1.5 text-sm font-medium text-highlighted">
+          {project.inProgress && (
+            <Button className="pointer-events-none">
               <Construction className="size-4" />
               Em desenvolvimento
-            </div>
+            </Button>
           )}
           {project.urlPreview && (
             <Button href={project.urlPreview}>
@@ -82,7 +87,7 @@ export function ProjectCard({
           )}
         </div>
         <p className="pt-6 text-sm">
-          <span className="text-muted-50">Techs:</span> {techs}
+          <span className="text-muted-50">Stack:</span> {stack}
         </p>
       </div>
     </Animate>

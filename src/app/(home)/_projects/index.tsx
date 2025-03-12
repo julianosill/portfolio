@@ -1,11 +1,14 @@
 import { LayoutGrid } from 'lucide-react'
 
-import { ProjectCard } from '@/app/(home)/_projects/project-card'
 import { Animate } from '@/components/animate'
 import { Title } from '@/components/ui/title'
-import { projects } from '@/utils/data/projects'
+import { fetchProjects } from '@/http'
 
-export function Projects() {
+import { ProjectCard } from './project-card'
+
+export async function Projects() {
+  const projects = await fetchProjects()
+
   return (
     <section id="projects" className="pt-20 md:pt-24">
       <Title asChild className="mx-auto mb-10 w-10/12 max-w-2xl md:mb-12">
@@ -22,9 +25,9 @@ export function Projects() {
           return (
             <ProjectCard
               key={i}
-              project={project}
               index={i}
               baseDelay={0.1}
+              project={project}
               isCentered={isLastItemOdd}
             />
           )

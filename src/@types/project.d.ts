@@ -1,12 +1,16 @@
-export interface IProject {
+type Asset = {
+  url: string
+}
+
+export interface Project {
   id: string
-  pending?: boolean
-  video?: string
-  image: string
   name: string
   description: string
-  urlPreview?: string
-  urlGithub?: string
-  urlGithubApi?: string
-  techs: string[]
+  urlPreview: string
+  urlGithub: string
+  urlGithubApi: string
+  image: Asset
+  video: Asset | null
+  stack: string[]
+  inProgress: boolean
 }
