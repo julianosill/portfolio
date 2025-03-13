@@ -9,7 +9,7 @@ const config: Config = {
         xs: '380px',
       },
       gridTemplateColumns: {
-        career: '11rem 1fr',
+        career: '10rem 1fr',
       },
       fontFamily: {
         sans: [
@@ -55,6 +55,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [require('tailwind-scrollbar')],
+  plugins: [require('tailwind-scrollbar'), require('@tailwindcss/typography')],
 }
 export default config
