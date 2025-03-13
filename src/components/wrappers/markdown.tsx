@@ -10,7 +10,7 @@ const markdownVariants = cva(
       variant: {
         default: '',
         career:
-          'prose-p:my-2 prose-ul:my-0 prose-ul:pl-4 prose-ul:leading-snug prose-li:mb-0 prose-li:mt-2 prose-li:p-0',
+          'prose-p:mb-0 prose-p:mt-2 prose-p:leading-snug prose-ul:my-0 prose-ul:pl-4 prose-ul:leading-snug prose-li:mb-0 prose-li:mt-2 prose-li:p-0',
       },
     },
     defaultVariants: { variant: 'default' },
