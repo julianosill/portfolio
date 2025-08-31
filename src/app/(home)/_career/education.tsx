@@ -2,14 +2,11 @@ import { GraduationCap } from 'lucide-react'
 
 import { Animate } from '@/components'
 import { Title } from '@/components/ui'
-import { For } from '@/components/utils'
-import { Markdown } from '@/components/wrappers'
+import { For } from '@/components/utils/for'
+import { COURSES } from '@/constants/career'
 import { cn, getAnimateDelayValue, isLastItem } from '@/helpers'
-import { fetchCourses } from '@/http'
 
 export async function Education() {
-  const courses = await fetchCourses()
-
   return (
     <section className="pt-12">
       <Title asChild className="mb-8 text-lg">
@@ -19,7 +16,7 @@ export async function Education() {
         </Animate>
       </Title>
 
-      <For list={courses}>
+      <For list={COURSES}>
         {(course, index) => (
           <Animate
             as="article"
@@ -35,14 +32,14 @@ export async function Education() {
             <div
               className={cn(
                 'relative border-l border-border-50 pb-8 pl-4',
-                isLastItem({ list: courses, index }) && 'pb-0',
+                isLastItem({ list: COURSES, index }) && 'pb-0',
               )}
             >
               <span className="absolute -left-[4px] top-2 block size-[7px] rounded-full bg-primary" />
               <h4 className="pb-2 text-lg font-medium leading-snug text-strong">
                 {course.title}
               </h4>
-              <Markdown source={course.description.markdown} variant="career" />
+              <p>{course.description}</p>
             </div>
           </Animate>
         )}

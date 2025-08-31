@@ -16,13 +16,13 @@ export function Career() {
           Minha trajetória
         </Animate>
       </Title>
+
       <Animate delay={0.05} as="p">
         Iniciando como Designer Gráfico, passei por agências de comunicação,
         produtora de eventos e editora, em posições relacionadas ao design e
         marketing. Atualmente, venho desenvolvendo minha carreira como
         Desenvolvedor Front-End, buscando me especializar e aprimorar a
-        qualidade e resultados do meu trabalho. Abaixo estão as minhas atuações
-        mais recentes.
+        qualidade e resultados do meu trabalho.
       </Animate>
 
       <Companies />
