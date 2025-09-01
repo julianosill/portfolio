@@ -1,15 +1,12 @@
 import { Animate } from '@/components'
-import { For } from '@/components/utils'
-import { Markdown } from '@/components/wrappers'
+import { For } from '@/components/utils/for'
+import { COMPANIES } from '@/constants/career'
 import { cn, getAnimateDelayValue, isLastItem } from '@/helpers'
-import { fetchJobs } from '@/http'
 
 export async function Companies() {
-  const jobs = await fetchJobs()
-
   return (
     <section className="pt-12">
-      <For list={jobs}>
+      <For list={COMPANIES}>
         {(job, index) => (
           <Animate
             as="article"
@@ -21,19 +18,25 @@ export async function Companies() {
                 {job.company}
               </h3>
               <span className="text-sm">{job.period}</span>
-              <span className="text-sm text-muted-50">{job.type}</span>
+              <span className="text-sm text-muted-50">{job.location}</span>
             </header>
             <div
               className={cn(
                 'relative border-l border-border-50 pb-8 pl-4',
-                isLastItem({ list: jobs, index }) && 'pb-0',
+                isLastItem({ list: COMPANIES, index }) && 'pb-0',
               )}
             >
               <span className="absolute -left-[4px] top-2 block size-[7px] rounded-full bg-primary" />
               <h4 className="pb-2 text-lg font-medium leading-snug text-strong">
                 {job.position}
               </h4>
-              <Markdown source={job.description.markdown} variant="career" />
+              <p className="text-sm">{job.description}</p>
+
+              <ul className="mt-3 list-disc space-y-2 pl-4 leading-snug">
+                <For list={job.activities}>
+                  {(activity) => <li key={activity}>{activity}</li>}
+                </For>
+              </ul>
             </div>
           </Animate>
         )}

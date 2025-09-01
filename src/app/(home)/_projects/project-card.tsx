@@ -21,8 +21,6 @@ export function ProjectCard({
   baseDelay = 0,
 }: ProjectCardProps) {
   const delay = baseDelay + index * 0.1
-
-  const videoUrl = project.video ? project.video.url : ''
   const stack = project.stack.map((tech) => tech).join(', ') + '.'
 
   return (
@@ -42,14 +40,14 @@ export function ProjectCard({
         playsInline
         width="720"
         height="405"
-        poster={project.image.url}
+        poster={project.image}
         className="aspect-video border-b border-border-50 object-cover"
       >
-        <source src={videoUrl} type="video/mp4" />
+        <source src={project.video} type="video/mp4" />
         <Image
           width={720}
           height={405}
-          src={project.image.url}
+          src={project.image}
           className="aspect-video object-cover"
           alt="Imagem com a tela inicial da aplicação"
         />

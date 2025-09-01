@@ -16,17 +16,20 @@ export function About() {
       </Title>
       <div className="space-y-4">
         <Animate delay={0.05} as="p">
-          Possuo habilidades sólidas em Typescript, React, Next, Node e mais de
-          10 anos de experiência em design. Atuei em mercados B2B e B2C, onde
-          aprimorei minhas habilidades técnicas, de comunicação, organização e
-          trabalho em equipe.
+          Desenvolvedor Front-End com 2 anos de experiência em aplicações web e
+          10 anos em design, unindo visão técnica e estética para entregar
+          produtos de alto impacto. Trabalho com Typescript, React, Next.js,
+          Node.js e tecnologias modernas de front e back-end, desenvolvendo
+          soluções para mercados B2B e B2C.
         </Animate>
         <Animate delay={0.1} as="p">
-          Também atuo como Desenvolvedor Front-End voluntário em um projeto
-          colaborativo, contribuindo na criação, implementação e manutenção de
-          componentes e funcionalidades, integrando APIs e assegurando a
-          qualidade através de revisões de código da equipe e metodologias
-          ágeis.
+          Além da experiência profissional, atuo como Desenvolvedor Full Stack e
+          Líder Técnico voluntário em uma Social Tech, contribuindo na
+          arquitetura de sistemas, integração de APIs, mentoria de equipes e
+          implantação de pipelines de CI/CD. Participo de projetos que adotam
+          metodologias ágeis, contribuindo para um fluxo de desenvolvimento mais
+          organizado e colaborativo e busco constantemente aplicar boas práticas
+          no desenvolvimento de software.
         </Animate>
       </div>
 

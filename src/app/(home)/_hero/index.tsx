@@ -5,35 +5,36 @@ import { Animate } from '@/components'
 import { Button } from '@/components/ui'
 
 import { SmoothLink } from './_components/smooth-link'
-import { Techs } from './techs'
+import { Stack } from './stack'
 
 export function Hero() {
   return (
     <section className="relative overflow-hidden bg-card">
       <div className="mx-auto flex min-h-screen w-10/12 max-w-2xl flex-col justify-center py-24">
         <Animate
-          variant="fadeLeft"
           as="h1"
+          variant="fadeLeft"
           className="text-4xl font-bold tracking-tight text-strong sm:pt-12 sm:text-6xl"
         >
           Juliano Sill
         </Animate>
         <div className="space-y-3 pt-6 max-sm:leading-snug sm:pt-8 sm:text-lg">
           <Animate variant="fadeLeft" duration={0.55} delay={0.05} as="p">
-            <span className="text-strong">Desenvolvedor Front-End</span>, movido
-            a café e curiosidade, com habilidades sólidas em{' '}
+            <span className="text-strong">Desenvolvedor Front-End</span> com 2
+            anos de experiência em aplicações web e mais de 10 anos em design.
+          </Animate>
+          <Animate variant="fadeLeft" duration={0.6} delay={0.05} as="p">
+            Movido a café e curiosidade, possuo habilidades sólidas em{' '}
             <span className="text-highlighted">Typescript</span>,{' '}
             <span className="text-highlighted">React</span>,{' '}
             <span className="text-highlighted">Next.js</span> e{' '}
-            <span className="text-highlighted">Node.js</span>.
-          </Animate>
-          <Animate variant="fadeLeft" duration={0.6} delay={0.05} as="p">
-            Agregando mais de 10 anos de experiência em design no
-            desenvolvimento de interfaces cativantes e intuitivas.
+            <span className="text-highlighted">Node.js</span>, unindo visão
+            técnica e estética para entregar produtos de alta qualidade e
+            impacto.
           </Animate>
         </div>
 
-        <Techs />
+        <Stack />
 
         <section className="flex flex-col justify-between pt-12 max-sm:gap-12 max-xs:gap-8 sm:flex-row sm:items-center sm:pt-16 md:pt-24">
           <div className="flex flex-wrap items-center gap-6 max-xs:text-sm sm:gap-8">
