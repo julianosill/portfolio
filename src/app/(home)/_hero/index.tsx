@@ -20,12 +20,12 @@ export function Hero() {
         </Animate>
         <div className="space-y-3 pt-6 max-sm:leading-snug sm:pt-8 sm:text-lg">
           <Animate variant="fadeLeft" duration={0.55} delay={0.05} as="p">
-            <span className="text-strong">Desenvolvedor Front-End</span> com 2
+            <span className="text-strong">Desenvolvedor Front-End</span> com 2+
             anos de experiência em aplicações web e mais de 10 anos em design.
           </Animate>
           <Animate variant="fadeLeft" duration={0.6} delay={0.05} as="p">
-            Movido a café e curiosidade, possuo habilidades sólidas em{' '}
-            <span className="text-highlighted">Typescript</span>,{' '}
+            Movido a café e curiosidade, possuo experiência e habilidades
+            sólidas em <span className="text-highlighted">Typescript</span>,{' '}
             <span className="text-highlighted">React</span>,{' '}
             <span className="text-highlighted">Next.js</span> e{' '}
             <span className="text-highlighted">Node.js</span>, unindo visão
